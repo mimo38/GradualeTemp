@@ -1,0 +1,133 @@
+% Afficher des recommendations concernant la syntaxe.
+\RequirePackage[orthodox,l2tabu]{nag}
+\RequirePackage{luatex85}
+% Paramètres du document.
+\documentclass[%
+a4paper%                       Taille de page.
+,fontsize=13pt%                Taille de police.
+,DIV=3%                       Plus grand => des marges plus petites.
+,titlepage=off%                Faut-il une page de titre ?
+,headings=optiontoheadandtoc%  Effet des paramètres optionnels de section.
+,headings=small%
+,parskip=false%
+,openany%
+]{scrbook}
+\renewcommand*\partheademptypage{\thispagestyle{empty}}
+
+%\usepackage{geometry}
+%%%%%%%%%%%%%%%%%%%%%%% Paramètres variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Taille des partitions grégoriennes.                                                      %%
+\newcounter{facteur}\setcounter{facteur}{17}                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Par souci de clarté, la définition des commandes est reportée dans un document annexe.
+\usepackage{gredoc,mudoc,lyluatex}
+\usepackage{pdfpages,transparent,array,ltablex}
+\addtolength{\voffset}{2mm}\addtolength{\headsep}{-2mm}
+\setlength{\extrarowheight}{2mm}
+\addto\captionsfrench{%
+  \renewcommand{\indexname}{Index des chants}%
+}
+
+\pdfcompresslevel=9
+
+\newcommand{\lieu}[1]{\hfill\linebreak[3]\hspace*{\stretch{1}}\nolinebreak\mbox{\emph{(#1)}}}
+
+\newcommand{\commandement}[1]{\noindent\textbf{#1}}
+
+\newcommand{\schola}[1]{}\newcommand{\foule}[1]{#1}
+\providecommand{\dest}{foule}
+
+\newcommand{\bgimage}[1]{% %%%% image "background"
+\raisebox{-.45\paperheight}[0pt][0pt]{%
+  \transparent{0.3}%
+  \includegraphics[width=.7\paperwidth,height=.7\paperheight,keepaspectratio=true]{img/#1}%
+  }%
+}
+
+\def\arraystretch{1.2}
+
+
+\grechangedim{overhepisemalowshift}{.7mm}{scalable}
+\grechangedim{hepisemamiddleshift}{1.4mm}{scalable}
+\grechangedim{overhepisemahighshift}{2.1mm}{scalable}
+\grechangedim{vepisemahighshift}{2.1mm}{scalable}
+
+
+\title{Cantus}
+\date{}
+
+\def\blindsection#1{\markright{#1}\addcontentsline{toc}{section}{#1}}
+
+%\pagestyle{empty}
+
+%\includeonly{Parties/Kyriale-XI}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\pagestyle{empty}
+\rubrica {Tous se tiennent debout et portent les cierges allumés à la main.}
+
+%\lettrine
+{E}{n cette nuit très sainte}, frères bien-aimés, la sainte Église notre
+mère, au souvenir de notre Seigneur Jésus-Christ mort et reposant
+au tombeau, veille avec amour, et célèbre sa résurrection glorieuse
+avec une joie débordante.
+Or, selon l'enseignement de Saint Paul (~Rom. 6, 4-11~) « nous avons
+été mis au tombeau avec le Christ par le baptême qui nous plonge dans
+sa mort; et, de même que le Christ est ressuscité des morts, nous devons,
+nous aussi, vivre d'une vie nouvelle; nous le savons, le vieil homme
+que nous étions a été crucifié avec le Christ pour que, désormais, nous
+ne soyons plus esclaves du péché. Aussi, prenons conscience que nous
+sommes morts au péché et vivants pour Dieu, dans le Christ Jésus notre
+Seigneur!»
+C'est pourquoi, frères bien-aimés, après avoir terminé l'entraînement
+du carême, renouvelons les engagements du saint baptême, par lesquels
+autrefois nous avons renoncé à Satan et aux actes qu'il inspire, ainsi
+qu'au monde qui est ennemi de Dieu, et nous nous sommes engagés
+à servir Dieu fidèlement dans la sainte Eglise catholique.
+
+LE CÉLÉBRANT : Renoncez-vous à Satan ?
+
+Tous : Nous renonçons.
+
+LE CÉLÉBRANT : Renoncez-vous à toutes ses œuvres ?
+
+Tous : Nous renonçons.
+
+LE CÉLÉBRANT : Renoncez-vous à toutes ses séductions ?
+
+Tous : Nous renonçons.
+
+LE CÉLÉBRANT : Croyez-vous en Dieu le Père tout-puissant, créateur
+du ciel et de la terre?
+
+Tous : Nous croyons.
+
+LE CÉLÉBRANT : Croyez-vous en Jésus-Christ son Fils unique, notre
+Seigneur, qui est né et qui a souffert la Passion ?
+
+Tous : Nous croyons.
+
+LE CÉLÉBRANT : Croyez-vous aussi en l'Esprit-Saint, à la sainte Eglise.
+catholique, à la communion des Saints, à la rémission
+des péchés, à la résurrection de la chair et à la vie
+éternelle ?
+
+Tous : Nous croyons.
+
+LE CÉLÉBRANT : Et maintenant, tous ensemble, prions Dieu, comme
+notre Seigneur Jésus·Christ nous a enseigné à prier : 
+
+Tous : Notre Père ...
+
+LE CÉLÉBRANT : Et que Dieu tout-puissant, Père de notre Seigneur
+Jésus-Christ, qui nous a fait renaître par l'eau et
+l'Esprit-Saint; et qui nous a accordé la rémission
+de tout péché, nous garde encore par sa grâce dans le
+Christ Jésus notre Seigneur, pour la vie éternelle.
+
+Tous : AMEN!
+
+\rubrica{Le célébrant asperge alors les fidèles avec l'eau bénite recueillie, comme
+on l'a dit plus haut, pendant la bénédiction de l'eau baptismale}
+
+\end{document}
