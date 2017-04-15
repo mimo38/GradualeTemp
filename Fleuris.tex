@@ -1,0 +1,278 @@
+% Afficher des recommendations concernant la syntaxe.
+\RequirePackage[orthodox,l2tabu]{nag}
+\RequirePackage{luatex85}
+% Paramètres du document.
+\documentclass[%
+a4paper%                       Taille de page.
+,fontsize=17pt%                Taille de police.
+,DIV=17%                       Plus grand => des marges plus petites.
+,titlepage=off%                Faut-il une page de titre ?
+,headings=optiontoheadandtoc%  Effet des paramètres optionnels de section.
+,headings=small%
+,parskip=false%
+,openany%
+]{scrbook}
+\renewcommand*\partheademptypage{\thispagestyle{empty}}
+
+%\usepackage{geometry}
+%%%%%%%%%%%%%%%%%%%%%%% Paramètres variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Taille des partitions grégoriennes.                                                      %%
+\newcounter{facteur}\setcounter{facteur}{17}                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Par souci de clarté, la définition des commandes est reportée dans un document annexe.
+\usepackage{gredoc,mudoc,lyluatex}
+\usepackage{pdfpages,transparent,array,ltablex}
+\addtolength{\voffset}{2mm}\addtolength{\headsep}{-2mm}
+\setlength{\extrarowheight}{2mm}
+\addto\captionsfrench{%
+  \renewcommand{\indexname}{Index des chants}%
+}
+
+\pdfcompresslevel=9
+
+\newcommand{\lieu}[1]{\hfill\linebreak[3]\hspace*{\stretch{1}}\nolinebreak\mbox{\emph{(#1)}}}
+
+\newcommand{\commandement}[1]{\noindent\textbf{#1}}
+
+\newcommand{\schola}[1]{}\newcommand{\foule}[1]{#1}
+\providecommand{\dest}{foule}
+
+\newcommand{\bgimage}[1]{% %%%% image "background"
+\raisebox{-.45\paperheight}[0pt][0pt]{%
+  \transparent{0.3}%
+  \includegraphics[width=.7\paperwidth,height=.7\paperheight,keepaspectratio=true]{img/#1}%
+  }%
+}
+
+\def\arraystretch{1.2}
+
+
+\grechangedim{overhepisemalowshift}{.7mm}{scalable}
+\grechangedim{hepisemamiddleshift}{1.4mm}{scalable}
+\grechangedim{overhepisemahighshift}{2.1mm}{scalable}
+\grechangedim{vepisemahighshift}{2.1mm}{scalable}
+
+
+\title{Cantus}
+\date{}
+
+\def\blindsection#1{\markright{#1}\addcontentsline{toc}{section}{#1}}
+
+%\pagestyle{empty}
+
+%\includeonly{Parties/Kyriale-XI}
+
+\begin{document}
+\backmatter
+\setcounter{page}{1}\tableofcontents
+
+\chapter{Noël à la messe de minuit}
+
+\section{Chant de l'épître}
+
+\commentary{{\small \emph{Tit 2, 11-15}}}
+
+\cantus{Fleuris}{Ep_Noel_nuit}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Lecture de l'épître de saint Paul à Tite}\end{center}
+
+\smallskip
+
+\emph{\color{black} Très cher fils : la grâce de Dieu, notre Sauveur, a été manifestée à tous les hommes ; elle nous enseigne à renoncer à l’impiété et aux convoitises mondaines, et à vivre sobrement, justement, et pieusement dans ce monde, attendant la bienheureuse espérance et l’avènement de la gloire du grand Dieu, notre Sauveur Jésus-Christ, qui s’est livré lui-même pour nous, afin de nous racheter de toute iniquité, et de se faire un peuple pur, agréable, et zélé pour les bonnes œuvres. Voilà ce que tu dois dire et recommander : en Jésus-Christ Notre Seigneur.
+}
+
+%\clearpage
+
+\section{Chant de l'évangile}
+
+\commentary{{\small \emph{Lc 2, 1-14}}}
+
+\cantus{Fleuris}{Ev_Noel_nuit}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Suite du saint évangile selon saint Luc}\end{center}
+
+\smallskip
+
+\emph{\color{black} En ce temps-là, parut un édit de César Auguste, pour qu’on fît le recensement des habitants de toute la terre. Ce premier dénombrement fut fait par Cyrinus, gouverneur de Syrie ; et tous allaient se faire inscrire, chacun dans sa ville. Joseph monta donc aussi de Nazareth, ville de Galilée, pour aller dans la Judée, dans la ville de David, qui est appelée Bethléem, parce qu’il était de la maison et de la famille de David, pour se faire inscrire avec Marie, son épouse, qui était enceinte. Or pendant qu’ils étaient là, les jours où elle devait enfanter furent accomplis, et elle mit au monde son fils premier-né ; elle l’enveloppa de langes et le coucha dans une crèche, parce qu’il n’y avait point de place pour eux dans l’hôtellerie. Il y avait, aux environs, des bergers qui passaient la nuit dans les champs, veillant à la garde de leurs troupeaux. Et voilà qu’un ange du Seigneur se présenta devant eux, et une lumière céleste les environna, et ils furent saisis d’une grande frayeur. Mais l’ange leur dit : «Ne craignez point ; car voici que je vous apporte une nouvelle qui sera pour tout le peuple le sujet d’une grande joie : c’est qu’il vous est né aujourd’hui, dans la ville de David, un Sauveur, qui est le Christ Seigneur. Et ceci sera pour vous le signe : Vous trouverez un enfant enveloppé de langes et couché dans une crèche.» Au même instant se joignit à l’ange une multitude de la milice céleste, louant Dieu, et disant : «Gloire à Dieu au plus haut des cieux et sur la terre paix aux hommes de bonne volonté.»
+}
+
+\chapter{Noël à la messe du jour}
+
+\section{Chant de l'épître}
+
+\commentary{{\small \emph{He 1, 1-12}}}
+
+\cantus{Fleuris}{Ep_Noel_jour}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Lecture de l'épître de saint Paul aux Hébreux}\end{center}
+
+\smallskip
+
+\emph{\color{black} Dieu, qui a parlé autrefois à nos pères par les prophètes, bien souvent et en bien des manières, dernièrement, en ces jours, nous a parlé par son Fils, qu’il a établi héritier de toutes choses, par qui il a aussi créé le monde. Ce Fils, qui est la splendeur de sa gloire et l’empreinte de sa substance et qui soutient toutes choses par la puissance de sa parole, après nous avoir purifiés de nos péchés, est assis à la droite de la Majesté divine au plus haut des cieux, d’autant supérieur aux anges, qu’il a reçu un nom plus excellent que le leur. Car auquel des anges Dieu a-t-il jamais dit : «Vous êtes mon Fils, je vous ai engendré aujourd’hui» ? Et encore : «Moi je serai son Père, et lui sera mon Fils» ? Et lorsqu’il introduit de nouveau son premier-né dans le monde, il dit : «Que tous les anges de Dieu l’adorent.» À la vérité, l’Écriture dit touchant les anges : «il fait de ses anges des vents, et de ses ministres une flamme de feu» ; mais au Fils : «votre trône, ô Dieu, est dans les siècles des siècles ; un sceptre d’équité est le sceptre de votre empire. Vous avez aimé la justice et haï l’iniquité ; c’est pourquoi Dieu, votre Dieu, vous a oint d’huile d’allégresse de préférence à ceux qui partagent votre gloire.» Et encore : «C’est vous, Seigneur, qui, au commencement, avez fondé la terre, et les cieux sont l’ouvrage de vos mains. Ils périront, mais vous, vous demeurerez, et tous vieilliront comme un vêtement, et vous les changerez comme un manteau, et ils seront changés ; mais vous, vous êtes toujours le même, et vos années n’auront pas de fin.»
+}
+
+\section{Chant de l'évangile}
+
+\cantus{Fleuris}{Dominus_Ev_Noel_jour}{}{}
+
+\commentary{{\small \emph{Jn 1,1-14}}}
+
+\cantus{Fleuris}{Ev_Noel_jour}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Suite du saint évangile selon saint Jean}\end{center}
+
+\smallskip
+
+\emph{\color{black} Au commencement était le Verbe, et le Verbe était en Dieu, et le Verbe était Dieu. Il était au commencement en Dieu. Toutes choses ont été faites par lui, et sans lui rien n’a été fait de ce qui a été fait. En lui était la vie, et la vie était la lumière des hommes ; et la lumière luit dans les ténèbres, et les ténèbres ne l’ont pas reçue. Il y eut un homme envoyé de Dieu dont le nom était Jean. Il vint comme témoin, pour rendre témoignage à la lumière, afin que tous crussent par lui. Il n’était pas la lumière, mais il devait rendre témoignage à la lumière. Le Verbe était la vraie lumière, qui éclaire tout homme venant en ce monde. Il était dans le monde, et le monde a été fait par lui, et le monde ne l’a pas connu. Il est venu chez lui, et les siens ne l’ont pas reçu. Mais à tous ceux qui l’ont reçu, il a donné le pouvoir de devenir enfants de Dieu ; à ceux qui croient en son nom ; qui ne sont point nés du sang, ni de la volonté de la chair, ni de la volonté de l’homme, mais de Dieu. Et le Verbe s’est fait chair, et il a habité parmi nous et nous avons vu sa gloire, gloire qui est celle que le Fils unique reçoit de son Père, plein de grâce et de vérité.
+}
+
+\clearpage
+
+\chapter{Épiphanie}
+
+\section{Chant de l'épître}
+
+\commentary{{\small \emph{Is 60, 1-6}}}
+
+\cantus{Fleuris}{Ep_Epiphanie}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Lecture du prophète Isaïe}\end{center}
+
+\smallskip
+
+\emph{\color{black} Lève-toi, Jérusalem, et resplendis, parce qu’est venue ta lumière et que la gloire du Seigneur sur toi s’est levée. Car les ténèbres couvriront la terre, et la sombre nuit, les peuples ; mais sur toi se lèvera le Seigneur, et sa gloire resplendira sur toi. Les nations marcheront à ta lumière, et les rois à la clarté qui se lève sur toi. Porte tes regards alentour, et vois : tous ceux-ci se sont rassemblés, ils sont venus à toi ; tes fils de loin viendront, et tes filles à ton côté se lèveront. Alors tu verras, et tu seras dans l’abondance ; ton cœur tressaillira, et se dilatera, car les richesses de la mer se dirigeront vers toi ; les trésors des nations viendront à toi. Une foule de chameaux chargés d’offrandes te couvrira ainsi que les dromadaires de Madian et d’Épha ; tous ceux de Saba viendront, apportant de l’or et de l’encens, et publiant les louanges du Seigneur.
+}
+
+
+\chapter{Vigile pascale}
+
+\section{Chant de l'épître}
+
+\commentary{{\small \emph{Col 3, 1-4}}}
+
+\cantus{Fleuris}{Ep_Paques_nuit}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Lecture de l'épître de saint Paul aux Colossiens}\end{center}
+
+\smallskip
+
+\emph{\color{black} Mes Frères, Si vous êtes ressuscités avec le Christ, recherchez les choses d’en haut, là où le Christ est assis à la droite de Dieu ; goûtez les choses d’en haut, et non celles de la terre ; car vous êtes morts, et votre vie est cachée avec le Christ en Dieu. Quand le Christ, votre vie, apparaîtra, alors vous apparaîtrez vous aussi avec lui dans la gloire.
+}
+
+\clearpage
+
+\section{Chant de l'évangile}
+
+\cantus{Fleuris}{Dominus}{}{}
+
+\commentary{{\small \emph{Mt 28, 1-7}}}
+
+\cantus{Fleuris}{Ev_Paques_nuit}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Suite du saint évangile selon saint Matthieu}\end{center}
+
+\smallskip
+
+\emph{\color{black} Après le sabbat, au lever du premier jour de la semaine, Marie Madeleine et l’autre Marie vinrent voir le sépulcre. 
+Et Voilà qu’il se fit un grand tremblement de terre : un ange du Seigneur descendit du ciel, et, s’approchant, il roula la pierre et s’assit dessus ; 
+son aspect était comme l’éclair et son vêtement comme la neige. 
+La crainte de l’ange glaça les gardes d’épouvante et ils parurent comme morts. Mais l’ange, prenant la parole, dit aux femmes : 
+«Vous, ne craignez point. Car je sais que vous cherchez Jésus qui a été crucifié. 
+Il n’est point ici ; car il est ressuscité, comme il l’a dit. 
+Venez, et voyez le lieu où le Seigneur avait été déposé. 
+Allez promptement dire à ses disciples qu’il est ressuscité, 
+et qu’il vous précède en Galilée ; 
+là vous le verrez. Voici que je vous le dis d’avance.»
+}
+
+\clearpage
+
+\chapter{Messe du jour de Pâques}
+
+\section{Chant de l'épître}
+
+\commentary{{\small \emph{I Co 5, 7-8}}}
+
+\cantus{Fleuris}{Ep_Paques_jour}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Lecture de l'épître de saint Paul aux Corinthiens}\end{center}
+
+\smallskip
+
+\emph{\color{black} Mes frères, purifiez-vous donc du vieux levain, afin que vous soyez une pâte nouvelle, comme vous êtes des azymes. Car notre agneau pascal, le Christ, a été immolé. C’est pourquoi, mangeons la pâque, non avec un vieux levain, ni avec un levain de malice et de perversité, mais avec des azymes de sincérité et de vérité.
+}
+
+\clearpage
+
+\section{Chant de l'évangile}
+
+\cantus{Fleuris}{Dominus}{}{}
+
+\commentary{{\small \emph{Mc 16, 1-7}}}
+
+\cantus{Fleuris}{Ev_Paques_jour}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Suite du saint évangile selon saint Marc}\end{center}
+
+\smallskip
+
+\emph{\color{black} En ce temps-là, lorsque le sabbat fut passé, 
+Marie-Madeleine, et Marie, mère de Jacques, et Salomé, 
+achetèrent des parfums pour venir embaumer Jésus. 
+Et de grand matin, le premier jour de la semaine, 
+elles arrivèrent au sépulcre, le soleil étant déjà levé. 
+Et elles se disaient l’une à l’autre : 
+«Qui nous roulera la pierre de l’entrée du sépulcre ?» 
+Et en regardant elles virent la pierre ôtée ; 
+or elle était fort grande. 
+Et entrant dans le sépulcre, elles virent un jeune homme assis à droite, 
+vêtu d’une robe blanche, et elles furent effrayées. 
+Mais il leur dit : 
+«Ne craignez point ; c’est Jésus de Nazareth, le crucifié, 
+que vous cherchez ; il est ressuscité, il n’est point ici ; 
+voilà le lieu où on l’avait mis. 
+Mais allez dire à ses disciples et à Pierre qu’il vous précède en Galilée ;
+ c’est là que vous le verrez, comme il vous l’a dit.»
+}
+
+\clearpage
+
+\chapter{Pentecôte}
+
+\section{Chant de l'évangile}
+
+\commentary{{\small \emph{Jn 14, 23-31}}}
+
+\cantus{Fleuris}{Ev_Pentecote}{}{}
+
+\bigskip
+
+\begin{center}\textsc{Suite du saint Évangile selon saint Jean}\end{center}
+
+\smallskip
+
+\emph{\color{black} En ce temps-là, Jésus dit à ses disciples : «Si quelqu’un m’aime, il gardera ma parole, et mon Père l’aimera, et nous viendrons à lui, et nous ferons en lui notre demeure ; celui qui ne m’aime point ne garde pas mes paroles. Or la parole que vous avez entendue n’est pas de moi, mais de mon Père, qui m’a envoyé. Je vous ai dit ces choses, demeurant encore avec vous. Mais le Paraclet, l’Esprit-Saint que mon Père enverra en mon nom vous enseignera toutes choses, et vous rappellera tout ce que je vous ai dit. Je vous laisse la paix, je vous donne ma paix ; mais ce n’est pas comme le monde la donne que je vous la donne. Que votre cœur ne soit pas troublé, et qu’il ne s’effraie point. Vous avez entendu que je vous ai dit : ‘Je m’en vais, et je reviens à vous.’ Si vous m’aimiez, vous vous réjouiriez de ce que je vais auprès de mon Père, parce que mon Père est plus grand que moi. Et maintenant je vous le dis avant que cela arrive, afin que, quand ce sera arrivé, vous croyiez. Je ne m’entretiendrai plus guère avec vous, car le prince de ce monde vient, et il n’a rien de moi. Mais c’est afin que le monde connaisse que j'aime mon Père, et que j’agis en tout comme mon Père m’a commandé.»
+}
+
+\clearpage
+
+
+\end{document}
