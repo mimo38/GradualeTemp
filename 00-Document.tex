@@ -13,6 +13,7 @@ a4paper%                       Taille de page.
 ,openany%
 ]{scrbook}
 \renewcommand*\partheademptypage{\thispagestyle{empty}}
+\newcounter{facteur}\setcounter{facteur}{30}
 
 %\usepackage{geometry}
 \usepackage{gredoc,mudoc,lyluatex}
@@ -20,7 +21,6 @@ a4paper%                       Taille de page.
 
 %%%%%%%%%%%%%%%%%%%%%%% Paramètres variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Taille des partitions grégoriennes.                                                      %%
-\newcounter{facteur}\setcounter{facteur}{30}
 \grechangedim{overhepisemalowshift}{.7mm}{scalable}
 \grechangedim{hepisemamiddleshift}{1.4mm}{scalable}
 \grechangedim{overhepisemahighshift}{2.1mm}{scalable}
