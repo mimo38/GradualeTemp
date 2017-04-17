@@ -17,7 +17,13 @@ a4paper%                       Taille de page.
 %\usepackage{geometry}
 %%%%%%%%%%%%%%%%%%%%%%% Paramètres variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Taille des partitions grégoriennes.                                                      %%
-\newcounter{facteur}\setcounter{facteur}{50}                                                 %%
+\newcounter{facteur}\setcounter{facteur}{30}
+\grechangedim{overhepisemalowshift}{.7mm}{scalable}
+\grechangedim{hepisemamiddleshift}{1.4mm}{scalable}
+\grechangedim{overhepisemahighshift}{2.1mm}{scalable}
+\grechangedim{vepisemahighshift}{2.1mm}{scalable}
+\grechangestafflinethickness{100} %%% epaisseur des lignes
+\grechangestaffsize{\value{facteur}}%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Par souci de clarté, la définition des commandes est reportée dans un document annexe.
 \usepackage{gredoc,mudoc,lyluatex}
@@ -47,12 +53,7 @@ a4paper%                       Taille de page.
 \def\arraystretch{1.2}
 
 
-\grechangedim{overhepisemalowshift}{.7mm}{scalable}
-\grechangedim{hepisemamiddleshift}{1.4mm}{scalable}
-\grechangedim{overhepisemahighshift}{2.1mm}{scalable}
-\grechangedim{vepisemahighshift}{2.1mm}{scalable}
-\grechangestafflinethickness{100} %%% epaisseur des lignes
-\grechangestaffsize{\value{facteur}}
+
 
 
 \title{Cantus}
