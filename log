@@ -3,19 +3,15 @@ Sortie :
 
 This is LuaTeX, Version 0.98.3 (TeX Live 2017/dev) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/Graduale/Promesse_veillee_pascale.tex
+(/opt/musite/static/docs/tmp/Graduale/gabc/Fleuris/main.tex
 LaTeX2e <2017/01/01> patch level 3
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2016/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.189 seconds
+luaotfload | main : initialization completed in 0.257 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/nag/nag.sty
-(/usr/share/texlive/texmf-dist/tex/latex/nag/nag-orthodox.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/nag/nag-l2tabu.cfg))
-(/usr/share/texlive/texmf-dist/tex/generic/luatex85/luatex85.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2016/06/14 v3.21 KOMA-Script document class (book)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2016/06/14 v3.21 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
@@ -24,34 +20,46 @@ Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 ))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size17.clo(load luc: /var/lib
-/texmf/luatex-cache/generic/fonts/otl/lmroman17-regular.luc))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo(load luc: 
+/var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman12-regular.luc))
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
 Package typearea, 2016/06/14 v3.21 KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
-
-Package typearea Warning: Maybe no optimal type area settings!
-(typearea)                The maximum limit of line width is about 19%
-(typearea)                larger than the heuristically detected line width.
-(typearea)                You may e.g. increase DIV, decrease fontsize
-(typearea)                or change the papersize.
-
-)) (./lib/gredoc.sty
-(/usr/share/texlive/texmf-dist/tex/latex/nowidow/nowidow.sty
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))))
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty))
+(/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
+(main.gaux) (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)(lo
+ad luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/greciliae.luc)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex(load luc: /var
+/lib/texmf/luatex-cache/generic/fonts/otl/greextra.luc))
+(/usr/share/texmf/tex/luatex/gregoriotex/gsp-default.tex)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
@@ -62,255 +70,43 @@ Package typearea Warning: Maybe no optimal type area settings!
 (/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def))
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)(load luc: /var/
 lib/texmf/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)(load luc: /var/lib
-/texmf/luatex-cache/generic/fonts/otl/lmroman12-italic.luc)))
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
-(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-french.ldfLanguage data for francais
-hyphenation	
-lefthyphenmin	2
-loader	loadhyph-fr.tex
-patterns	hyph-fr.pat.txt
-righthyphenmin	2
-synonyms	table: 0x3c287f0
-
-hyph-fr.pat.txt
-Language francais was not yet loaded; created with id 4
-Language francais already loaded; id is 4
-Language francais already loaded; id is 4Language data for french
-hyphenation	
-lefthyphenmin	2
-loader	loadhyph-fr.tex
-patterns	hyph-fr.pat.txt
-righthyphenmin	2
-synonyms	table: 0x3c287f0
-
-hyph-fr.pat.txt
-Language french was not yet loaded; created with id 8
-Language french already loaded; id is 8)
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latin.ldfLanguage data for latin
-hyphenation	
-lefthyphenmin	2
-loader	loadhyph-la.tex
-patterns	hyph-la.pat.txt
-righthyphenmin	2
-synonyms	table: 0x3c2cc50
-
-hyph-la.pat.txt
-Language latin was not yet loaded; created with id 12
-Language latin already loaded; id is 12
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def)
-Language latin already loaded; id is 12)
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty) (./lib/paracol.sty
-) (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def)))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/keycommand/keycommand.sty
-(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
-Loading lettrine.cfg
-(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrpage2.sty)
-
-Class scrbook Warning: Usage of package `titlesec' together
-(scrbook)              with a KOMA-Script class is not recommended.
-(scrbook)              I'd suggest to use the package only
-(scrbook)              if you really need it, because it breaks several
-(scrbook)              KOMA-Script features, i.e., option `headings' and
-(scrbook)              the extended optional argument of the section
-(scrbook)              commands.
-(scrbook)              Nevertheless, using requested
-(scrbook)              package `titlesec' on input line 75.
-
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-
-Package titlesec Warning: Non standard sectioning command detected
-(titlesec)                Using default spacing and no format.
-
-
-Package titlesec Warning: Non standard sectioning command detected
-(titlesec)                Using default spacing and no format.
-
-
-Package titlesec Warning: Non standard sectioning command detected
-(titlesec)                Using default spacing and no format.
-
-
-Package titlesec Warning: Non standard sectioning command detected
-(titlesec)                Using default spacing and no format.
-
-
-Package titlesec Warning: Non standard sectioning command detected
-(titlesec)                Using default spacing and no format.
-
-)
-
-Package scrbook Warning: Activating an ugly workaround for a missing
-(scrbook)                feature of package `titlesec` on input line 75.
-
-(/usr/share/texlive/texmf-dist/tex/latex/imakeidx/imakeidx.sty)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.sty
-(/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
-(Promesse_veillee_pascale.gaux)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)(load luc: /var
-/lib/texmf/luatex-cache/generic/fonts/otl/greciliae.luc)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex(load luc: /var
-/lib/texmf/luatex-cache/generic/fonts/otl/greextra.luc))
-(/usr/share/texmf/tex/luatex/gregoriotex/gsp-default.tex)
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
-(/usr/share/texmf/tex/luatex/gregoriotex/gregoriosyms.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))(load luc: /var/lib/t
-exmf/luatex-cache/generic/fonts/otl/linlibertine-r.luc)(load luc: /var/lib/texm
-f/luatex-cache/generic/fonts/otl/linlibertine-rb.luc)(load luc: /var/lib/texmf/
-luatex-cache/generic/fonts/otl/linlibertine-ri.luc)(load luc: /var/lib/texmf/lu
-atex-cache/generic/fonts/otl/linlibertine-rbi.luc)(load luc: /var/lib/texmf/lua
-tex-cache/generic/fonts/otl/linbiolinum-r.luc)(load luc: /var/lib/texmf/luatex-
-cache/generic/fonts/otl/linbiolinum-rb.luc)(load luc: /var/lib/texmf/luatex-cac
-he/generic/fonts/otl/linbiolinum-ri.luc)(load luc: /var/lib/texmf/luatex-cache/
-generic/fonts/otl/linbiolinum-rbo.luc)(load luc: /var/lib/texmf/luatex-cache/ge
-neric/fonts/otl/linlibertine-rz.luc)(load luc: /var/lib/texmf/luatex-cache/gene
-ric/fonts/otl/linlibertine-rzi.luc)
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=Monospaced,Lining' (tnum) not available for font
-* 'LinLibertine_RZI' with script 'Latin' and language 'Default'.
-*************************************************
-
-*************************************************
-* fontspec warning: "icu-feature-not-exist-in-font"
-* 
-* OpenType feature 'Numbers=Monospaced,Lining' (tnum) not available for font
-* 'LinLibertine_RZI' with script 'Latin' and language 'Default'.
-*************************************************
-(load luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/linlibertine-dr.luc)(l
-oad luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/linlibertine-m.luc)(load
- luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/linlibertine-mb.luc)(load l
-uc: /var/lib/texmf/luatex-cache/generic/fonts/otl/linlibertine-mo.luc)(load luc
-: /var/lib/texmf/luatex-cache/generic/fonts/otl/linlibertine-mbo.luc)(load luc:
- /var/lib/texmf/luatex-cache/generic/fonts/otl/linbiolinum-k.luc)(load luc: /va
-r/lib/texmf/luatex-cache/generic/fonts/otl/linlibertine-i.luc)
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_R.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_R.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinBiolinum_K.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/LKey.tex))
+/texmf/luatex-cache/generic/fonts/otl/lmroman12-italic.luc)))(load luc: /var/li
+b/texmf/luatex-cache/generic/fonts/otl/linlibertine-r.luc)(load luc: /var/lib/t
+exmf/luatex-cache/generic/fonts/otl/linlibertine-rbi.luc)(load luc: /var/lib/te
+xmf/luatex-cache/generic/fonts/otl/linlibertine-rb.luc)(load luc: /var/lib/texm
+f/luatex-cache/generic/fonts/otl/linlibertine-ri.luc)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
-luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "Font l800 not found.".
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.(load luc: /v
-ar/lib/texmf/luatex-cache/generic/fonts/otl/l800.luc)
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-
-Package GregorioTeX Warning: biginitial style is deprecated.
-(GregorioTeX)                Use initial style instead on input line 130.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
-
-Package hyperref Warning: Unexpected value for option `pdftex'
-(hyperref)                is ignored on input line 4362.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
-
-Package hyperref Message: Driver: hpdftex.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)))
-(./lib/mudoc.sty (/usr/share/texlive/texmf-dist/tex/latex/pbox/pbox.sty))
-Writing index file Promesse_veillee_pascale.idx
-(./lib/lyluatex.sty
-(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))lilypond
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/transparent.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty))
-(./Promesse_veillee_pascale.aux)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
-Language french already loaded; id is 8
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg)) (./main.aux)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)))
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
-Language french already loaded; id is 8
-Language french already loaded; id is 8
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg) [1{/var/lib/texm
-f/fonts/map/pdftex/updmap/pdftex.map}]
-Language french already loaded; id is 8
-Language french already loaded; id is 8
-No complaints by nag.
-[2] (./Promesse_veillee_pascale.aux
-Language french already loaded; id is 8
-Language french already loaded; id is 8
-Language french already loaded; id is 8
-Language french already loaded; id is 8
-Language french already loaded; id is 8))
- 836 words of node memory still in use:
-   5 hlist, 1 vlist, 1 rule, 21 glue, 1 kern, 1 penalty, 22 glyph, 32 attribute
-, 56 glue_spec, 22 attribute_list, 2 shape, 1 write, 1 user_defined, 4 pdf_colo
-rstack nodes
-   avail lists: 1:1,2:303,3:70,4:44,5:169,6:1778,7:486,8:24,9:129,10:14,11:131
+(./Ep_Paques_nuit-4_2_0.gtex
+Underfull \hbox (badness 5756) in paragraph at lines 7--1025
+ [] [][] [][][][][][] [][][] [][][][][][][][][] [][][] [][][] [][][] [][][] [][
+][] [][][][]
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--1025
+[][][][][][][][][][] [][][] [] []  [][][] [][][] [] [] [] [][][][][][][][][] []
+ [][] []
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./main.aux))
+(see the transcript file for additional information)
+ 32915 words of node memory still in use:
+   1075 hlist, 137 vlist, 547 rule, 1 local_par, 691 glue, 679 kern, 137 penalt
+y, 268 glyph, 2530 attribute, 59 glue_spec, 430 attribute_list, 1 write, 1 user
+_defined, 272 pdf_colorstack nodes
+   avail lists: 2:8204,3:1104,4:91,5:1187,6:651,7:498,8:43,9:477,10:80,11:3
 
 warning  (pdf backend): draftmode enabled, not changing output pdf
-Transcript written on Promesse_veillee_pascale.log.
+Transcript written on main.log.
 
 
 
